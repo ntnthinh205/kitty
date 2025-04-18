@@ -14,17 +14,16 @@ enable_audio_bell           no
 window_padding_width        0
 hide_window_decorations     yes
 window_decorations none
-
-
-
+# background_opacity          0.7
+background_transparent      no
 dynamic_background_opacity  yes
 confirm_os_window_close     0
+# include $HOME/.config/ml4w/settings/kitty-cursor-trail.conf
+include current-theme.conf
+
+
+
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Catppuccin-Frappe
 include current-theme.conf
 # END_KITTY_THEME
-
-# transparent: bat 3 dong duoi de trong suot
-# background_opacity          0.8
-# background_transparent      yes
-# background              #000000
